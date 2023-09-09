@@ -1,0 +1,20 @@
+.navigation{
+    background-color: #014137;
+    color: #e4cdb4;
+    margin: 1px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.navigation a{
+    color: #e4cdb4;
+    float: inline-start;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: color 0.3s, padding 0.3s, background-color 0.3s;
+
+}
+.navigation a:hover {
+    background-color: #e4cdb4;
+    color: #014137;
+}
